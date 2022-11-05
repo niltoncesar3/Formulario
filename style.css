@@ -74,7 +74,13 @@ body {
   width: 100%;
   border-radius: 10px;
   padding: 10px;
+  cursor: pointer;
 }
+
+.form button:hover{
+  background-color: #fb00ffd5;
+}
+
 
 /* Error and Success */
 .form-control.success input {
